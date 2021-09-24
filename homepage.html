@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+    <title>Website Design</title>
+<style>
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body
+{
+background-size: cover;
+font-family:'Times New Roman', Times, serif; 
+background-image:center;
+height: 100%;
+}
+
+nav{
+display: flex;
+padding: 0% 2%;
+justify-content: space-between;
+align-items: center;
+background:#070c57 ;
+box-shadow: 3px 6px 6px #0000;
+}
+
+.menu-bar
+{
+background:#070c57 ;
+text-align:right;
+justify-content: space-evenly;
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    }
+
+.menu-bar ul input[type=text]
+{
+text-decoration: none;
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 0px;
+cursor: pointer;
+font-family: 'Times New Roman', Times, serif;
+width: 50%;
+}
+
+
+.menu-bar ul input[type=button]
+{
+text-decoration: none;
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 0px;
+cursor: pointer;
+font-family: 'Times New Roman', Times, serif;
+width: 10%;
+}
+
+.menu-bar ul li
+{
+width: 75px;
+margin:15px;
+padding:15px;
+
+}
+
+.menu-bar ul li a
+{
+text-decoration: none;
+color: white;
+box-shadow:3px 3px 10px #000000 ;
+border-radius: 6px;
+margin-right: 50px;
+
+}
+.menu-bar ul li a:hover
+{
+    background-color:#40e0d0;
+border-radius: 5px;
+transition: 1s;
+}
+
+.text-box
+{
+width:90% ;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50%);
+text-align: center;
+}
+
+.text-box h1
+{
+font-size: 62px;
+color: white;
+text-shadow:3px 3px 10px #000000  ;
+}
+.text-box h2
+{
+    font-size: 20px;
+    color:#40e0d0;
+}
+
+.text-box p
+{
+color: whitesmoke;
+text-align: center;
+}
+.button
+{
+display: inline-block;
+color: white;
+border: 1px solid white;
+background: transparent;
+text-decoration: none;
+font-size: 13px;
+padding: 12px 34px;
+position: relative;
+cursor: pointer;
+box-shadow:3px 3px 6px #40e0d0;
+}
+
+.button:hover{
+ border: 1px solid rgb(150, 104, 5);
+ background: #40e0d0;
+ transition: 1s;
+}
+
+
+</style>
+</head>
+<body background="electric-car.jpg" >
+    <section class="header">
+        <nav>
+      <h1 style="color:white"><img class="logo-img" src="car_logo.png" width="50" height="50">eFuel Car</h1>
+         <div class="menu-bar">
+        <ul>
+            <input type="text" placeholder="Type here to search">
+            <input type="button" placeholder="Search">
+            <li><a href="#" onclick="alert('Please Register First')">HOME</a></li>
+            <li><a href="#" onclick="alert('Please Register First')">ABOUT</a></li>
+            <li><a href="#" onclick="alert('Please Register First')">GALLERY</a></li>
+            <li><a href="#" onclick="alert('Please Register First')">TEAM</a></li>
+            <li><a href="#" onclick="alert('Please Register First')">CONTACT</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <div class="text-box">
+<h1>Electric Car Zone</h1>
+<h2><u><em>EV-Charging & Car Services</u></em> </h2><br><br><br>
+<p>Welcome to Electric car.com, you are viewing information for visitors in India.<br>
+The list of Electric cars in India include Tata Nexon EV (₹ 13.99 Lakh), MG ZS EV (₹ 21.00 Lakh) and Tata Tigor EV (₹ 10.58 Lakh). <br>
+Check out the latest prices, images, reviews & specifications of the Electric cars.
+</p><br><br>
+<a href="register.html" class="button">Register Here</a>
+ </div>
+ </section>
+</body>
+</html>
